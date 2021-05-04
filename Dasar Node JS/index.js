@@ -6,7 +6,11 @@
 
 // Object.getOwnPropertyNames(global);
 
-const coffee = require('./coffee');
- 
-console.log(coffee);
+// const coffee = require('./coffee');
+
+// console.log(coffee);
+const http = require('http'); 
+
+const user = require('./user');
+console.log(user.firstName);
  
